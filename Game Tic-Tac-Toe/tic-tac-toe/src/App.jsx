@@ -7,6 +7,7 @@ import { useState } from 'react';
 
 
 const App = () => {
+
   const [activePlayer, setActivePlayer] = useState('X');
   const [gameTurns, setGameTurns] = useState([]);
   
@@ -20,10 +21,10 @@ const App = () => {
     <main>
       <div id='game-container'>
         <ol id='players' className='highlight-player'>
-          <Player initialName='Player 1' symbol='X' isActive={activePlayer === 'X'}/>
-          <Player initialName='Player 2' symbol='O' isActive={activePlayer === 'O'}/>
+          <Player initialName='Player 1' symbol='X' isActive={activePlayer === 'X'} />
+          <Player initialName='Player 2' symbol='O' isActive={activePlayer === 'O'} />
         </ol>
-        <GameBoard onSelectBox={handleSelectBox} activePlayerSymbol={activePlayer}/>
+        <GameBoard onSelectBox={handleSelectBox} activePlayerSymbol={activePlayer} />
       </div>
     </main>
     </>

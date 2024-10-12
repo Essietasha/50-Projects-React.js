@@ -1,6 +1,7 @@
 import React from 'react';
 
 const DeleteConfirmation = ({ onConfirm, onCancel }) => {
+  
     return (
         <div id="delete-confirmation">
           <h2>Are you sure?</h2>

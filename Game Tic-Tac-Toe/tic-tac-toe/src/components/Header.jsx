@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Header = () => {
+  
   return (
     <header>
         <img src="tic-tac-toe-logo.jpg" alt="Game Logo" />

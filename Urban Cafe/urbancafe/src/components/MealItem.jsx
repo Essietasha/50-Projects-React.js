@@ -4,7 +4,9 @@ import Button from './UI/Button.jsx';
 import { useContext } from 'react';
 import CartContext from '../store/CartContext.jsx';
 
+
 const MealItem = ( {meal} ) => {
+    
     const cartCtx = useContext(CartContext)
 
     function handleAddMealToCart(){

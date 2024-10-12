@@ -3,6 +3,7 @@ import { useLoaderData, json } from 'react-router-dom';
 import MovieCard from '../components/MovieCard';
 
 const Movies = () => {
+  
   const movies = useLoaderData();
 
   return (

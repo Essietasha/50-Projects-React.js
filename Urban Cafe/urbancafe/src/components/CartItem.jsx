@@ -5,6 +5,7 @@ import { useContext } from 'react';
 
 
 const CartItem = ({ cartItem }) => {
+    
     const cartCotx = useContext(CartContext);
 
     function handleAddItem(){

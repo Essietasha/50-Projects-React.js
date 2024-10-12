@@ -3,6 +3,7 @@ import UserHome from '../components/UserHome';
 import { useLoaderData } from 'react-router-dom';
 
 const HomePage = () => {
+  
   const movies = useLoaderData();
 
   return (

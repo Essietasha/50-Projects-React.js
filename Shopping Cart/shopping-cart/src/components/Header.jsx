@@ -2,6 +2,7 @@ import { useRef } from "react";
 import CartModal from "./CartModal";
 
 export default function Header({ cart, onUpdateCartItemQuantity }) {
+  
   const modal = useRef();
 
   const cartQuantity = cart.items.length;

@@ -3,6 +3,7 @@ import { useRouteError } from 'react-router-dom';
 import MainNavigation from '../components/MainNavigation';
 
 const ErrorPage = () => {
+
     const error = useRouteError();
 
     let title = 'An error occured!';
@@ -24,7 +25,6 @@ const ErrorPage = () => {
             <h2>{title}</h2>
             <p>{message}</p>
         </div>
-
     </>
   )
 }

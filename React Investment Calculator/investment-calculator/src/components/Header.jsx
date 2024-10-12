@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Header = () => {
+  
   return (
     <header id='header'>
         <img src="dollar.jpg" alt="Dollar" />

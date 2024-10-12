@@ -3,6 +3,7 @@ import { forwardRef, useImperativeHandle, useRef } from 'react';
 import Button from './Button';
 
 const Modal = forwardRef(({children, buttonCaption}, ref) => {
+    
     const dialog = useRef();
     useImperativeHandle(ref, () => {
         return{

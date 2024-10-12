@@ -6,39 +6,38 @@ const StateLogin = () => {
   const [enteredValues, setEnteredValues] = useState({
     email: '',
     password: ''
-});
+  });
 
   const [didEdit, setDidEdit] = useState({
-    email: false,
-    password: false
-});
+      email: false,
+      password: false
+  });
 
-const emailIsInvalid = didEdit.email && !enteredValues.email.includes('@');
+  const emailIsInvalid = didEdit.email && !enteredValues.email.includes('@');
 
-function handleSubmit(event){
-    event.preventDefault();
-};
+  function handleSubmit(event){
+      event.preventDefault();
+  };
 
-function handleInputChange(identifier, value){
-   setEnteredValues(prevValues => ({
-    ...prevValues,
-    [identifier]: value
-   }));
-   setDidEdit(prevEdit => ({
-    ...prevEdit,
-    [identifier]: false
-   }))
-};
+  function handleInputChange(identifier, value){
+    setEnteredValues(prevValues => ({
+      ...prevValues,
+      [identifier]: value
+    }));
+    setDidEdit(prevEdit => ({
+      ...prevEdit,
+      [identifier]: false
+    }))
+  };
 
-function handleInputBlur(identifier){
-  setDidEdit(prevEdit => ({
-    ...prevEdit,
-    [identifier]: true
-  }))
-}
+  function handleInputBlur(identifier){
+    setDidEdit(prevEdit => ({
+      ...prevEdit,
+      [identifier]: true
+    }))
+  }
 
-
-return (
+  return (
     <form onSubmit={handleSubmit}>
       <h2>Login</h2>
 

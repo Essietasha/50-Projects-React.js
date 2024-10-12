@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Places = ({ title, places, fallbackText, onSelectPlace }) => {
+  
     return (
         <section className="places-category">
           <h2>{title}</h2>

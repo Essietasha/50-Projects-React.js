@@ -49,8 +49,6 @@ const App = () => {
     })
   }
 
-  //Managing a state(object), spreading the previous value into the new state using ...
-  //prevState and simply updating the state using the selectedProjectId(from undefined to null);
   function handleStartAddProject(){
     setProjectsState(prevState => {
       return{

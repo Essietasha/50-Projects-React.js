@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Modal.module.css';
 
 const Modal = ({ onConfirm, onCancel }) => {
+  
   return (
     <div className={classes.modal}>
       <div className={classes.modalContent}>

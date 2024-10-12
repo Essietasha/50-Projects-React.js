@@ -9,6 +9,7 @@ import { currencyFormatter } from '../util/formatting';
 
 
 const Checkout = () => {
+    
     const cartCtx = useContext(CartContext);
     const userProgressCtx = useContext(UserProgressContext);
 

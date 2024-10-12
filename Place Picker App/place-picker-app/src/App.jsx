@@ -7,6 +7,7 @@ import logoImg from "./assets/logo.png";
 import './App.css';
 import React from 'react'
 
+
 const App = () => {
   const modal = useRef();
   const selectedPlace = useRef();
@@ -55,6 +56,7 @@ const App = () => {
           you have visited.
         </p>
       </header>
+
       <main>
         <Places
           title="I'd like to visit ..."
@@ -62,6 +64,7 @@ const App = () => {
           places={pickedPlaces}
           onSelectPlace={handleStartRemovePlace}
         />
+        
         <Places
           title="Available Places"
           places={AVAILABLE_PLACES}

@@ -3,6 +3,7 @@ import classes from './Watching.module.css';
 import { useNavigate } from 'react-router-dom';
 
 const Watching = () => {
+    
     const navigate = useNavigate();
 
 

@@ -5,6 +5,7 @@ import Shop from "./components/Shop";
 import { DUMMY_PRODUCTS } from "./dummy-products.js";
 
 function App() {
+  
   const [shoppingCart, setShoppingCart] = useState({
     items: [],
   });

@@ -3,31 +3,31 @@ import { Link } from 'react-router-dom'
 
 
 const Testimonials = () => {
-    
-let slideIndex = 1;
-showSlides(slideIndex);
+        
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-function addSlides(index) {
-    setTimeout(() =>{
-        showSlides(slideIndex += index);
-    }, 1000)
-  };
+    function addSlides(index) {
+        setTimeout(() =>{
+            showSlides(slideIndex += index);
+        }, 1000)
+    };
 
 
 
-function showSlides(index) {
-    let i;
-    let slide = document.getElementsByClassName("slide");
+    function showSlides(index) {
+        let i;
+        let slide = document.getElementsByClassName("slide");
 
-    if (index > slide.length) { slideIndex = 1 }
-    if (index < 1) { slideIndex = slide.length }
+        if (index > slide.length) { slideIndex = 1 }
+        if (index < 1) { slideIndex = slide.length }
 
-    for (i = 0; i < slide.length; i++){
-        // slide[i].style.display = "none";
-    }
-    
-    // slide[slideIndex-1].style.display = "block";
-};
+        for (i = 0; i < slide.length; i++){
+            // slide[i].style.display = "none";
+        }
+        
+        // slide[slideIndex-1].style.display = "block";
+    };
 
 
   return (

@@ -13,6 +13,7 @@ import InProgress from './pages/InProgress';
 import FooterLayout from './layout/FooterLayout';
 import { loader as MovieLoader } from './pages/Movies';
 
+
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(

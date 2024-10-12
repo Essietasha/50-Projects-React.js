@@ -4,6 +4,7 @@ import ResultModal from './ResultModal';
 
 
 const TimerChallenge = ( {title, targetTime} ) => {
+    
     const [timerExpired, setTimerExpired] = useState(false);
     const [timerStarted, setTimerStarted] = useState(false);
 

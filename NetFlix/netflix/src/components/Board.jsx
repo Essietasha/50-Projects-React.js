@@ -3,6 +3,7 @@ import classes from './Board.module.css';
 import { useNavigate } from 'react-router-dom';
 
 const Board = () => {
+  
   const navigate = useNavigate();
 
   function handleSubmit(event) {

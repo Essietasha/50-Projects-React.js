@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 
 const RefLogin = () => {
+
   const [formMailInvalid, setFormMailInvalid] = useState(false);
 
   const email = useRef();
@@ -21,9 +22,6 @@ const RefLogin = () => {
 
       setFormMailInvalid(false);
     };
-
-    
-    
 
     return (
         <form onSubmit={handleSubmit}>

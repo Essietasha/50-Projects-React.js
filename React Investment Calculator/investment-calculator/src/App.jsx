@@ -29,10 +29,10 @@ function handleChange(inputIdentifier, newValue) {
 
   return (
     <>
-    <Header />
-    <Inputs userInputStateObject={userInput} onChangeInput={handleChange}/>
-    {!inputIsValid && <p className='center'>Please enter a duration greater than zero.</p>}
-    {inputIsValid && <Result userInputStObject={userInput} />}
+      <Header />
+      <Inputs userInputStateObject={userInput} onChangeInput={handleChange}/>
+      {!inputIsValid && <p className='center'>Please enter a duration greater than zero.</p>}
+      {inputIsValid && <Result userInputStObject={userInput} />}
     </>
   )
 }

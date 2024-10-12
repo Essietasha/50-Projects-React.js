@@ -1,6 +1,7 @@
 import React from 'react'
 
 const CustomInput = ({label, id, error, ...props}) => {
+  
   return (
     <div className="control no-margin">
         <label htmlFor={id}> {label} </label>

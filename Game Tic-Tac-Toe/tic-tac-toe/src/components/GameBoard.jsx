@@ -8,6 +8,7 @@ const initialGameBoard = [
 ];
 
 const GameBoard = ({ onSelectBox, activePlayerSymbol }) => {
+    
     const [gameBoard, setGameBoard] = useState(initialGameBoard);
 
     function handleGameClick(eachRowIndex, colIndex){

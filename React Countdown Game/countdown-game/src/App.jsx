@@ -6,6 +6,7 @@ import TimerChallenge from './components/TimerChallenge';
 
 
 const App = () => {
+  
   return (
     <>
       <Player />

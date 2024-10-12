@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const Lists = () => {
+    
     const [getNote, setGetNote] = useState('');
     const [items, setItems] = useState([]);
     const divRef = useRef(null);

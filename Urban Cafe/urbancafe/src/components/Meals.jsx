@@ -2,8 +2,11 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import MealItem from './MealItem';
 
+
 const Meals = () => {
+
   const [loadedMeals, setLoadedMeals] = useState([]);
+
   useEffect(() => {
     async function fetchMeals() {
         const response = await fetch("http://localhost:8000/meals", {method: 'GET'});
@@ -15,6 +18,7 @@ const Meals = () => {
     }
     fetchMeals();
   }, []);
+  
 
   return (
     <>

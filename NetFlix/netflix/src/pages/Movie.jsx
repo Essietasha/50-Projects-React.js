@@ -4,6 +4,7 @@ import classes from './Movie.module.css';
 
 
 const Movie = () => {
+
   const { movieId } = useParams();
   const [movie, setMovie] = useState(null);
 
@@ -35,8 +36,9 @@ const Movie = () => {
   </div>
 );
 }
-
 export default Movie;
+
+
 
 // import React from 'react'
 // const Movie = () => {

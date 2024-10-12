@@ -4,18 +4,18 @@ import { useState } from 'react';
 const NewTask = ({ onadd }) => {
 
     const [enteredTask, setEnteredTask]= useState('');
+    
     function handleChange(event){
         setEnteredTask(event.target.value);
-    }
+    };
 
     function handleClick(){
         if(enteredTask.trim() === ''){
             return;
         }
-
         onadd(enteredTask);
         setEnteredTask('');
-    }
+    };
 
   return (
     <div className='flex item-center gap-4'>

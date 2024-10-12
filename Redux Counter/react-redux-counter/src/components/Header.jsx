@@ -3,6 +3,7 @@ import { authActions } from '../store/index';
 import { useSelector, useDispatch } from 'react-redux';
 
 const Header = () => {
+  
   const dispatch = useDispatch();
   const isAuth = useSelector(state => state.auth.isAuthenticated);
 

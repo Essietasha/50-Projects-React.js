@@ -2,9 +2,9 @@ import React from 'react';
 import { calculateInvestmentResults, formatter } from '../investment';
 
 const Result = ({ userInputStObject }) => {
+
   const resultsData = calculateInvestmentResults(userInputStObject);
   const initialInvestment = resultsData[0].valueEndOfYear - resultsData[0].interest - resultsData[0].annualInvestment;
-
 
 
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Items = ({itemNote, itemBtn}) => {
+  
   return (
     <div className='newEl'> 
         {itemNote} 
