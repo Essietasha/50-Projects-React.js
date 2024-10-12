@@ -6,6 +6,7 @@ import NewsletterSignup from './NewsletterSignup';
 const activeClass = ({ isActive }) => isActive ? classes.active : undefined;
 
 const MainNavigation = () => {
+    
   return (
     <header>
         <div className={classes.flex}>
@@ -15,9 +16,11 @@ const MainNavigation = () => {
                     <li>
                         <NavLink to="/" className={activeClass} end>HOME</NavLink>
                     </li>
+
                     <li>
                         <NavLink to="/events" className={activeClass}>EVENTS</NavLink>
                     </li>
+
                     <li>
                         <NavLink to="/newsletter" className={activeClass}> NEWSLETTER </NavLink>
                     </li>

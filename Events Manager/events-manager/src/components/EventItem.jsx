@@ -12,13 +12,16 @@ const EventItem = ({ event }) => {
         submit(null, {method: 'delete'});
       }
     };
+
   return (
+    
     <article className={classes.container}>
         <img src={event.image} alt={event.title} />
         <h1>{event.title}</h1>
         <time>{event.date}</time>
         <p>{event.description}</p>
         <p>{event.place}</p>
+        
         <menu className={classes.flex}>
             <Link to='edit' className={classes.edit}>Edit</Link>
             <button onClick={startDeleteHandler}>Delete</button>

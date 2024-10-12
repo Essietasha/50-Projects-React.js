@@ -3,6 +3,7 @@ import EventsList from '../components/EventsList';
 import { useLoaderData, json } from 'react-router-dom';
 
 const EventsPage = () => {
+  
   const events = useLoaderData();
 
   return (

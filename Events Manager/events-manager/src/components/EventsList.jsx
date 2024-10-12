@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import classes from './EventsNavigation.module.css';
 
 const EventsList = ({ events }) => {
+    
   return (
     <div className={classes.container}>
         <h2>All Events</h2>

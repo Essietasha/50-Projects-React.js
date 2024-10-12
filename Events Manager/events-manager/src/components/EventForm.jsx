@@ -3,15 +3,16 @@ import classes from './EventForm.module.css';
 import { Form, useNavigate, useNavigation, json, redirect } from 'react-router-dom'
 
 const EventForm = ({method, event}) => {
-    const navigate = useNavigate();
-    const navigation = useNavigation();
+  
+  const navigate = useNavigate();
+  const navigation = useNavigation();
 
-    const isSubmitting = navigation.state === 'submitting';
+  const isSubmitting = navigation.state === 'submitting';
 
-    function cancelHandler(){
-        //..
-        navigate('...');
-    };
+  function cancelHandler(){
+      //..
+      navigate('...');
+  };
 
   return (
     <Form method={method} className={classes.form}>
@@ -45,6 +46,7 @@ const EventForm = ({method, event}) => {
 
 export default EventForm;
 export async function action({ request, params }) {
+  
     const method = request.method;
 
     const data = await request.formData();
