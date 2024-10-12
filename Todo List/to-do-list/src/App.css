@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #9BEC00;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 3rem;
+}
+
+.formDiv{
+  background-color: rgb(255, 255, 255, 0.7);
+  min-height: 50vh;
+  min-width: 50vw;
+  border-radius: 10px;
+}
+
+input{
+  width: 80%;
+  height: 4rem;
+  outline: none;
+  border: 1px solid transparent;
+  border-top-left-radius: 10px;
+  float: left;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+button {
+  background-color: #649704;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  width: 20%;
+  height: 4rem;
+  float: right;
+  border-top-right-radius: 10px;
+}
+
+.newEl{
+  width: 100%;
+  background-color: #FFDB00;
+  height: 4rem;
+  border: 1px dotted #111;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  position: relative;
+}
+
+h6{
+  font-size: 1rem;
+}
+
+.checkbox{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15%;
+}
+
+.delete{
+  position: absolute;
+  right: 0;
+  background-color: #111;
+  color: #fff;
+  padding: 2px 5px;
+  cursor: pointer;
+  top: 0;
+  border-top-right-radius: 0px;
+}
+
+.delete:hover{
+  background-color: gray;
+}
+

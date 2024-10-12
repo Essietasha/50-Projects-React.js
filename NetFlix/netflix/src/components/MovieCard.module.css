@@ -1,0 +1,74 @@
+.movieCard{
+    margin: 2rem;
+}
+
+.movieCard h3{
+    margin: 0rem 1rem;
+}
+
+.movieCard h3:not(:first-child){
+    margin-top: 1.5rem;
+}
+
+.cardsCont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.cardsCont ul{
+    margin: 1rem 0rem;
+}
+
+.cards{
+    margin: 0.5em 1em;
+    background-color: #333;
+    height: 10rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2em;
+    position: relative;
+    cursor: pointer;
+}
+
+.cardsCont li{
+    list-style: none;
+}
+
+.cardsCont a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cards h5{
+    color: #fff;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    background-color: #800000;
+    padding: 0.1em 1em;
+    border-radius: 3px;
+}
+
+.logo{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.topTen{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 3px;
+    border-radius: 10%;
+    right: 3px;
+}
+
+.noMovie{
+    margin: 0.5rem 1rem;
+    color: gray;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #103835, #210638);  
+  position: relative;
+}
+
+.innCont{
+  width: 50%;
+  height: 70%;
+  background-color: #FEFDED;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  border-radius: 20px;
+  border-right: 10px solid #1cac6b;
+  border-bottom: 10px solid #1cac6b;
+}
+
+.tipC{
+  padding: 15px 0px;
+  color: #fff;
+  background-color: #111;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 12px;
+  font-size: 15px;
+  text-align: center;  
+}
+.cal{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+label{
+  font-weight: bold;
+  font-size: 14px;
+}
+.tpamount{
+  width: 100%;
+  height: 28px;
+  margin-top: 5px;
+  background-color: #e0e5e2;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 15px;
+  height: 25px;
+  outline: none;
+  background-color: #B2C8BA;
+  border: 1px solid #B2C8BA;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.calcDiv{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#calculate{
+  background-color: #1cac6b;
+  border: 1px solid #40A578;
+  padding: 7px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#total{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media(max-width: 600px){
+  .tipC{
+      font-size: 8px;
+  }
+}

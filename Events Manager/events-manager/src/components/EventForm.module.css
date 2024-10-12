@@ -1,0 +1,33 @@
+.form{
+    width: 85%;
+    min-width: 30%;
+    max-width: 40%;
+    margin: 5rem auto;
+    padding-top: 1rem;
+}
+
+form p{
+    margin: 1rem 0rem;
+}
+
+form input, textarea{
+    width: 100%;
+    border: 1.5px solid gray;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}
+
+form textarea{
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+header {
+    max-width: 80rem;
+    margin:3rem auto;
+  }
+
+  .ems{
+    color: #ffb804;
+    font-weight: bold;
+  }
+
+  .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  }
+  
+  .list {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .list a:hover,
+  .list a.active {
+    color: #E9C46A;
+  }
+
+  .active{
+    color: yellow;
+    font-weight: bold;
+  }

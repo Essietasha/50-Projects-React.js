@@ -1,0 +1,40 @@
+.watch{
+    text-align: center;
+    margin: 10rem auto;
+  }
+  
+  .watch h1{
+    letter-spacing: 0.1em;
+    margin: 1em auto;
+  }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.flex div{
+    width: 8rem;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.flex div p{
+    cursor: pointer;
+}
+
+.flex div:first-child{
+    background-color: #EE66A6;
+}
+
+.flex div:nth-child(2){
+    background-color: #86D293;
+}
+
+.flex div:nth-child(3){
+    background-color: #8967B3;
+}

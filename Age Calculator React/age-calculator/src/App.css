@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  background: linear-gradient(95deg,#6F54F4, #706cb8, #c1b0ff);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jac{
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 15%;
+}
+
+hr{
+  background-color: #FAEF5D;
+  height: 90px;
+  width: 2px;
+  border: none;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.flexB{
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+}
+
+
+h1{
+  color: #fff;
+}
+
+.ageCalcTxt{
+  color: #FAEF5D;
+}
+
+.calendar{
+  margin-top: 50px;
+  padding: 30px;
+  width: 45%;
+  height: 100px;
+  background-color: #c1b0ff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 75%;
+  margin: 0 auto;
+  height: 30px;
+  outline: none;
+}
+
+.calculate{
+  height: 30px;
+  width: 80px;
+  background-color: #FAEF5D;
+  border: 1px solid #FAEF5D;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result{
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+@media (max-width: 600px){
+  body{
+      background: linear-gradient(95deg,#6F54F4, #706cb8, #c1b0ff);
+      height: 100vh;
+  }
+  
+.container{
+  background: linear-gradient(95deg,#6F54F4, #706cb8, #c1b0ff);
+  height: 100vh;
+  width: 100%;
+  margin-top: 0;
+}
+
+
+.calculate{
+  width: 60px;
+}
+
+
+.jac{
+  width: 100%;
+}
+
+}

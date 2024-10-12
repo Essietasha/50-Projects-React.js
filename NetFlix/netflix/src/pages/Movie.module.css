@@ -1,0 +1,40 @@
+.divEl{
+    margin: 4rem 8rem;
+    text-align: center;
+}
+
+.movieImg{
+    height: 60vh;
+    margin: 1rem auto;
+}
+
+.movieImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.divEl p{
+    font-weight: bold;
+}
+
+.loading{
+text-align: center;
+margin: 5rem;
+}
+
+.playBtn{
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 1rem;
+    background-color: red;
+    color: #fff;
+    border:  1px solid transparent;
+    cursor: pointer;
+}
+
+.playBtn:hover{
+    background-color: #333;
+    transition: 1s ease;
+}

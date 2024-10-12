@@ -1,0 +1,196 @@
+{
+    "movies": {
+        "todaysPick":  [
+            {
+              "id": "1",
+              "title": "Uglies",
+              "rating": 10,
+              "image": "https://www.whats-on-netflix.com/wp-content/uploads/2024/08/uglies-netflix-movie-everything-we-know-1280x720.jpg",
+              "recentlyAdded": true,
+              "netflixProduced": true,
+              "topTen": true
+            },
+            {
+              "id": "2",
+              "title": "Designated Survivor",
+              "rating": 9,
+              "image": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-9510023047.jpg",
+              "recentlyAdded": false,
+              "netflixProduced": false,
+              "topTen": false
+            },
+            {
+              "id": "3",
+              "title": "Gifted",
+              "rating": 5,
+              "image": "https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXb3vunE0_w6IggboJVZ-oy5bdzu2lmcAIGsQZYBo-Gx20IyEm-2wreHsGVe440M5JIzP6y6aywwgy2gHkb8r5Uhy0Bgoi7mJcmJ.jpg?r=763",
+              "recentlyAdded": false,
+              "netflixProduced": true,
+              "topTen": false
+            },
+            {
+              "id": "4",
+              "title": "The Deliverance",
+              "rating": 6,
+              "image": "https://resizing.flixster.com/r5OKohwgjqXDGHUvZJRfKaCWqGg=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2EzZTQ3Mzc4LTFiMjctNDY4Yy05YWFlLTE4OGRmYjU0NWIyNy5qcGc=",
+              "recentlyAdded": false,
+              "netflixProduced": true,
+              "topTen": true
+            }
+          ],
+          "yourNextWatch": [
+            {
+              "id": "5",
+              "title": "Outlaw",
+              "rating": 4,
+              "image": "https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYi0VdYfm2zx1z7vtzI8jtkYl8W_dNF9cL4c58n0yCYqTU5A1v2w4aHjvAGpawtcu_epatCbrHaKxfOQOawV3Ptq9x7YRBuZcA1Z.jpg?r=e20",
+              "recentlyAdded": false,
+              "netflixProduced": false,
+              "topTen": false
+            },
+            {
+              "id": "6",
+              "title": "Dungeons and Dragons",
+              "rating": 7,
+              "image": "https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYuTSOA-ebVsVa-aR7QNxFebm2iyAj7DtW0J2TqNXLbMsp20a3pSO0nc0oyWWptO9ISPc5aQI8LdfEzQlsEsnsD9-zMHirXJlX5k.jpg?r=881",
+              "recentlyAdded": false,
+              "netflixProduced": false,
+              "topTen": false
+            },
+            {
+              "id": "7",
+              "title": "Officer Black Belt",
+              "rating": 6,
+              "image": "https://resizing.flixster.com/PE7QjRJSTDkLbO2ciVyMlJaxOGg=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28140834_v_h9_ab.jpg",
+              "recentlyAdded": true,
+              "netflixProduced": false,
+              "topTen": false
+            },
+            {
+              "id": "8",
+              "title": "Rooms",
+              "rating": 10,
+              "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2015/10/room-poster.jpg?q=49&fit=crop&w=480&dpr=2",
+              "recentlyAdded": true,
+              "netflixProduced": false,
+              "topTen": false
+            }
+          ],
+          "new":  [
+            {
+                "id": "9",
+                "title": "The Resident",
+                "rating": 5,
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTphaatNKGReWbIiJZtYUDu3I5Nk9dcJi6QQ&s",
+                "recentlyAdded": false,
+                "netflixProduced": false,
+                "topTen": true
+              },
+              {
+                "id": "10",
+                "title": "HitMan",
+                "rating": 8,
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsIa4X6Wn98_9vA9DRfVjMFF-9O8_ksx8oWw&s",
+                "recentlyAdded": false,
+                "netflixProduced": true,
+                "topTen": true
+              },
+              {
+                "id": "11",
+                "title": "Monsters",
+                "rating": 5,
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPgcSEyBj9s7DMkbPozMwAmIZ427SRRfG-Cw&s",
+                "recentlyAdded": false,
+                "netflixProduced": false,
+                "topTen": true
+              },
+              {
+                "id": "12",
+                "title": "Dracula",
+                "rating": 9,
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2eTQTXn4uxGrUQJDo_5OwD6qRe9Ee4G_dkA&s",
+                "recentlyAdded": false,
+                "netflixProduced": false,
+                "topTen": true
+              }
+         ],
+
+          "hollywood":  [
+            {
+                "id": "13",
+                "title": "Titanic",
+                "rating": 5,
+                "image": "https://i0.wp.com/awardswatch.com/wp-content/uploads/2023/02/Screenshot-2023-02-13-at-8.01.58-AM.png?fit=3735%2C2105&ssl=1&resize=1280%2C720",
+                "recentlyAdded": false,
+                "netflixProduced": true,
+                "topTen": false
+              },
+              {
+                "id": "14",
+                "title": "Rebel Bridge",
+                "rating": 8,
+                "image": "https://img.etimg.com/thumb/msid-113127192,width-650,height-488,imgsize-1508999,resizemode-75/rebel-ridge-movie-poster.jpg",
+                "recentlyAdded": false,
+                "netflixProduced": true,
+                "topTen": false
+              },
+              {
+                "id": "15",
+                "title": "Four Daughters",
+                "rating": 5,
+                "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/01/four-daughters-film-poster.jpg?q=49&fit=crop&w=480&dpr=2",
+                "recentlyAdded": false,
+                "netflixProduced": false,
+                "topTen": true
+              },
+              {
+                "id": "16",
+                "title": "The Day after Tomorrow",
+                "rating": 9,
+                "image": "https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVv8w6VDTfsf7LowicweS_QLAct8ctynY0IZ5bjROKCYL3u44J4bud9eW4vJHZTOgBPq2rLx7Xr9N_bcQPC1eHIdPk9JdYzBx6Gi.jpg?r=b6a",
+                "recentlyAdded": true,
+                "netflixProduced": false,
+                "topTen": false
+              }
+         ], 
+
+          "nollywood":  [
+            {
+              "id": "17",
+              "title": "Gaa",
+              "rating": 10,
+              "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/07/House-of-Gaa-2-e1722169437223.jpg?resize=1140%2C570&ssl=1",
+              "recentlyAdded": false,
+              "netflixProduced": false,
+              "topTen": true
+            },
+            {
+              "id": "18",
+              "title": "Afamefuna",
+              "rating": 9,
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKepLIwp0er-LtdL_33IkN0sOezolVO2BnQ&s",
+              "recentlyAdded": true,
+              "netflixProduced": false,
+              "topTen": false
+            },
+            {
+              "id": "19",
+              "title": "The Millions",
+              "rating": 5,
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiTd_awOUP6SY6WutfBEND2H-u7uX9ueRl4w&s",
+              "recentlyAdded": false,
+              "netflixProduced": true,
+              "topTen": false
+            },
+            {
+                "id": "20",
+                "title": "Citation",
+                "rating": 6,
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmv1sIa5-LaeIKV-yGR8von4-tpIx0zWF68g&s",
+                "recentlyAdded": false,
+                "netflixProduced": false,
+                "topTen": false
+            }
+         ]
+    }
+  }

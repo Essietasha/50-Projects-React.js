@@ -1,0 +1,37 @@
+.container{
+    width: 85%;
+    min-width: 50%;
+    max-width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+
+h1{
+    margin: 1rem 0rem;
+}
+
+p{
+    margin: 0.5rem 0rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.edit{
+    color: blueviolet;
+}
+
+button{
+    color: #E9C46A;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

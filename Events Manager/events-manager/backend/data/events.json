@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Wedding",
+      "place": "London",
+      "description": "Blissful union",
+      "image": "https://img.freepik.com/free-photo/decorated-wedding-hall-with-candles-round-tables-centerpieces_8353-10057.jpg?ga=GA1.1.1945390932.1713732986&semt=ais_hybrid",
+      "date": "2024-05-06"
+    },
+    {
+      "id": "2",
+      "title": "Conference",
+      "place": "Miami",
+      "description": "Official gathering",
+      "image": "https://img.freepik.com/free-photo/people-taking-part-high-protocol-event_23-2150951243.jpg?ga=GA1.1.1945390932.1713732986&semt=ais_hybrid",
+      "date": "2024-09-26"
+    },
+    {
+      "id": "3",
+      "title": "Movie Date",
+      "place": "San Diego",
+      "description": "Moment of courtship",
+      "image": "https://img.freepik.com/free-photo/stage-with-stage-lit-up-with-colorful-lights_1340-34176.jpg?ga=GA1.2.1945390932.1713732986&semt=ais_hybrid",
+      "date": "2024-05-06"
+    },
+    {
+      "id": "4",
+      "title": "Anniversary",
+      "place": "Los Angeles",
+      "description": "Celebration of love",
+      "image": "https://img.freepik.com/premium-photo/group-people-are-gathered-room-with-chandelier-left_1199278-30411.jpg?ga=GA1.1.1945390932.1713732986&semt=ais_hybrid",
+      "date": "2024-05-06"
+    },
+    {
+      "id": "5",
+      "title": "Musical Concert",
+      "place": "United States",
+      "description": "Karaoke",
+      "image": "https://img.freepik.com/free-photo/young-adults-having-fun-open-mic_23-2149501513.jpg?ga=GA1.1.1945390932.1713732986&semt=ais_hybrid",
+      "date": "2024-11-01"
+    },
+    {
+      "id": "fe6d",
+      "title": "Movie Night @ San Francisco",
+      "image": "https://img.freepik.com/free-photo/people-taking-part-high-protocol-event_23-2150951245.jpg?ga=GA1.1.1945390932.1713732986&semt=ais_hybrid",
+      "place": "San Francisco",
+      "date": "2024-09-26",
+      "description": "Movie Time"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-image: url(images/6229854.jpg);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container{
+  height: 98vh;
+  width: 90%;
+  margin: auto;
+  border: 40px solid #111;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  gap: 30px;
+}
+
+.flex p{
+  font-weight: bold;
+}
+
+#calculate{
+  padding: 5px 20px;
+  background: #40A578;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.resultInKg{
+  font-size: 14px;
+}
+
+input{
+  height: 30px;
+  width: 200px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.resultsFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.allResults{
+  margin-top: 30px;
+}
+
+#reset{
+  margin-top: 20px;
+  padding: 5px 25px;
+  background: #481E14;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.errorMessage{
+  color: red;
+}
+
+@media (max-width:600px) {
+  .lb{
+      width: 30%;
+  }
+  .rs{
+      width: 30%;
+  }
+}
+@media (max-width: 1024px) {
+  .lb{
+      width: 30%;
+  }
+  .rs{
+      width: 30%;
+  }
+}

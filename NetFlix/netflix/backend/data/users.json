@@ -1,0 +1,40 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "Tom",
+        "age": "18",
+        "image": "images/user1.png",
+        "movies": [
+            "American War",
+            "Tom Ridds",
+            "Night Agent",
+            "Civilians"
+        ]
+      }, 
+      {
+        "id": "2",
+        "name": "Joe",
+        "age": "22",
+        "image": "images/user2.png",
+        "movies": [
+            "We are Survivors",
+            "All Odds",
+            "Last Night",
+            "The Adventure of Merlin"
+        ]
+      }, 
+      {
+        "id": "1",
+        "name": "Lisa",
+        "age": "8",
+        "image": "images/user3.png",
+        "movies": [
+            "Diana and Roma",
+            "Sofia the First",
+            "Miraculous Bug",
+            "Baby Doctor"
+        ]
+      }  
+    ]
+  }

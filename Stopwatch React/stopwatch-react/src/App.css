@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(images/mountain.jpg);
+  /* background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/mountain.jpg); */
+  /* background-size: cover; */
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.container{
+  height: 80%;
+  width: 60%;
+  background-color: #373A40;
+  margin-left: 20%;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.stopwatch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F3F7EC;
+  padding-top: 20px;
+  height: 80px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.stopwatch hr{
+  height: 100%;
+  width: 2px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #fff;
+}
+
+.timer{
+  height: 100px;
+  background-color: #1A2130;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F3F7EC;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 25px 5px #A91D3A;
+}
+
+.buttons{
+  margin-top: 50px;
+}
+
+button{
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fs{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#start{
+  background-color: #41B06E;
+}
+#pause{
+  background-color: #A91D3A;
+  width: 120px;
+
+}
+#reset{
+  background-color: #686D76;
+}
+
+@media (max-width: 600px) {
+
+  .stopwatch h1{
+      font-size: 25px;
+  }
+
+  .timer{
+      height: 70px;
+      width: 70%;
+  }
+  
+
+  button{
+      width: 50px;
+      padding: 10px;
+      font-size: 10px;
+  }
+
+  #pause{
+      width: 80px;
+  }
+  
+}
