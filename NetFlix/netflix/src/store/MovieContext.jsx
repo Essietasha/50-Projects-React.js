@@ -29,6 +29,7 @@ export const MovieProvider = ({ children }) => {
         const updateMyList = async (selectedMovies) => {
             const response = await fetch('http://localhost:8000/movies');
             const data = await response.json();
+            console.log(data)
 
             const updatedMoviesNewId = selectedMovies.map((movie, index) => ({
                 ...movie,
